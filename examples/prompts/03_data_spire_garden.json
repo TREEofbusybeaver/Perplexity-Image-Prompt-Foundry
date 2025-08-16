@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "brand": "Perplexity",
+    "aesthetic": "surreal-real with retro vibes",
+    "version": "1.0.0",
+    "purpose": "AI-generated image aligned to Perplexity branding",
+    "model": "Google Imagen 4"
+  },
+  "concept": {
+    "title": "Data Spire Garden",
+    "objective": "Depict a monumental glass-and-steel skyscraper entwined with elegant digital flora at golden hour—photoreal base with restrained, conceptual surreal overlays—aligned to Perplexity’s brand.",
+    "brand_message": "intelligent, accessible, human-centric; no gimmicks, no fluff; answers that make sense"
+  },
+  "style": {
+    "realism": {
+      "base": "photorealistic, ultra-detailed, golden-hour natural lighting, crisp materials",
+      "controls": {
+        "photorealism_strength": 0.82,
+        "texture_fidelity": "sleek futuristic glass reflections, brushed steel edges, natural stone pores, water surface micro-ripples, clean motion-blur streaks in data streams"
+      }
+    },
+    "surreal": {
+      "approach": "magical realism—orderly digital motifs embedded in real architecture and flora",
+      "motifs": [
+        "vines made of luminous binary code wrapping structural fins",
+        "hexagonal-pixel leaves shimmering in sun",
+        "waterfall that resolves into glowing data at the base",
+        "glitching, pixelated data flow interacting with real plants",
+        "reflection of sky and data in pool"
+      ],
+      "intensity": 0.27
+    },
+    "retro_editorial": {
+      "tone": "refined, magazine-inspired, timeless",
+      "cues": [
+        "vintage color grading: warm gold highlights with cool blue shadows",
+        "soft, fine film grain",
+        "subtle chromatic aberration at outer edges",
+        "classic editorial minimalism with clear focal hierarchy"
+      ],
+      "strength": 0.32
+    },
+    "brand_tone": ["clean", "confident", "curious", "open", "precise yet warm"]
+  },
+  "color_lighting": {
+    "palette": {
+      "dominant": ["#F39C12"],
+      "accents": ["#1A5276", "#2E86C1", "#A9CCE3"],
+      "highlights": ["#F4D03F", "#A2D9CE"],
+      "rules": "vibrant yet refined; balance warm golds with cool steel-blues; avoid neon and heavy saturation"
+    },
+    "lighting": {
+      "type": "golden hour with sun reflecting off glass and data streams",
+      "shadows": "long, soft-edged; gentle occlusion around vines and facade details",
+      "volumetrics": "subtle sun haze; controlled bloom on bright data cascades only"
+    }
+  },
+  "composition": {
+    "framing": "close-up architectural portrait",
+    "perspective": "slightly low angle emphasizing height",
+    "structure": [
+      "rule of thirds with cascading waterfall/data stream as anchor",
+      "strong verticals of facade contrasted with organic vine curves",
+      "generous negative space in sky-facing panel reflections",
+      "geometric order in hexagonal leaves and binary vine patterns"
+    ],
+    "focal_hierarchy": "primary: central cascade turning into glowing data; secondary: binary-code vines and hex-pixel leaves; tertiary: reflective pool base and distant city spires"
+  },
+  "subjects": {
+    "core_concepts": [
+      "monolithic glass-and-steel skyscraper overgrown with digital flora",
+      "waterfall transforming into golden, glowing data at the base",
+      "vines of luminous binary code integrating with real plants",
+      "hexagonal pixel leaves shimmering in sunlight",
+      "reflections of sky and data in ground-level pool"
+    ],
+    "human_element": "none (optional tiny human silhouettes for scale only)",
+    "objects": [
+      "sleek glass curtain wall",
+      "natural stone accents",
+      "reflective pool at base",
+      "distant high-tech city silhouettes at sunset"
+    ],
+    "constraints": "no direct logo recreation; data elements must remain abstract and elegant—no HUD/UI panels or legible text strings"
+  },
+  "negative": {
+    "ban_list": [
+      "chaotic composition",
+      "cartoonish rendering",
+      "neon oversaturation",
+      "sci-fi HUDs or floating UI overlays",
+      "excessive bloom/halation",
+      "warped perspective lines on architecture",
+      "garbled/legible text blocks instead of abstract data"
+    ]
+  },
+  "technical": {
+    "resolution": "4096x2304",
+    "aspect_ratio": "16:9",
+    "seed": 774411,
+    "iterations": 4,
+    "select_best_of": 2,
+    "output_notes": "archive prompt, parameters, seed, and selected image with metadata"
+  },
+  "model_specific": {
+    "system": "Photoreal base with restrained conceptual surrealism; editorial-modern retro cues; warm-cool color discipline; abstract data metaphors integrated with real materials.",
+    "prompt": {
+      "content": [
+        "Render a close-up, slightly low-angle view of a monumental glass-and-steel skyscraper at golden hour.",
+        "Primary subject: a central waterfall cascading down the facade that transforms into glowing golden data streams at the base; apply subtle, clean motion blur to the data flow.",
+        "Integrate digital flora: vines composed of luminous binary code wrapping structural elements; leaves appear as hexagonal pixels with gentle shimmer.",
+        "At ground level, include a reflective pool capturing the sky and glowing data; maintain clean, mirror-like reflections with mild surface ripples.",
+        "Color discipline: dominant #F39C12; accents #1A5276, #2E86C1, #A9CCE3; highlights #F4D03F, #A2D9CE; avoid neon saturation.",
+        "Background: distant high-tech cityscape at sunset with faint air traffic trails; keep background soft and secondary.",
+        "Editorial-retro cues: warm golden highlights with cool steel-blue shadows, soft film grain, subtle chromatic aberration; maintain clear focal hierarchy and negative space."
+      ],
+      "negative": "chaos, cartoonish, neon, HUDs, heavy bloom, warped lines, legible text blocks"
+    },
+    "params": {
+      "quality": "high",
+      "style": "photorealistic",
+      "input_fidelity": 4.5,
+      "size": "4096x2304",
+      "seed": 774411
+    }
+  }
+}

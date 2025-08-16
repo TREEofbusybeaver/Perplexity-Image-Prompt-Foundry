@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "brand": "Perplexity",
+    "aesthetic": "surreal-real with retro vibes",
+    "version": "1.0.0",
+    "purpose": "AI-generated image aligned to Perplexity branding",
+    "model": "Google Imagen 4"
+  },
+  "concept": {
+    "title": "Cosmic Vista from Observatory",
+    "objective": "Render a wide, eye-level view from a minimalist observatory interior onto an expansive alien canyon beneath a majestic planetary sky—photoreal base with restrained conceptual surreal cues—aligned to Perplexity’s brand.",
+    "brand_message": "intelligent, accessible, human-centric; no gimmicks, no fluff; answers that make sense"
+  },
+  "style": {
+    "realism": {
+      "base": "photorealistic, ultra-detailed, low-light interior with cosmic exterior illumination",
+      "controls": {
+        "photorealism_strength": 0.86,
+        "texture_fidelity": "sleek matte metallic interior framework with subtle panel reflections; clear, expansive glass with controlled reflections; rugged stratified sandstone micro-detail; realistic atmospheric perspective; precise stellar points without smear"
+      }
+    },
+    "surreal": {
+      "approach": "magical realism—grand celestial scale and dreamlike star density rendered believably via atmosphere and disciplined glow",
+      "motifs": [
+        "giant pale-yellow planetary body with soft halo",
+        "distant smaller planets/moons at varying depths",
+        "dense star field with faint nebula wisps",
+        "subtle lens-like glows as abstract orbs (non-UI)"
+      ],
+      "intensity": 0.3
+    },
+    "retro_editorial": {
+      "tone": "refined, magazine-inspired, timeless",
+      "cues": [
+        "vintage color grading: warm canyon earth tones contrasted with cool deep navy/teal sky",
+        "soft, fine film grain",
+        "subtle chromatic aberration at extreme edges",
+        "classic editorial minimalism with strong negative space and clear hierarchy"
+      ],
+      "strength": 0.28
+    },
+    "brand_tone": ["clean", "confident", "curious", "open", "precise yet warm"]
+  },
+  "color_lighting": {
+    "palette": {
+      "dominant": ["#001f33", "#0A2A43", "#C1440E", "#D2691E", "#E2725B"],
+      "accents": ["#FFF8E1", "#E6E6FA", "#FAD02E"],
+      "highlights": ["#FFD580"],
+      "rules": "balance warm earth terrain and vegetation with cool cosmic sky; unify with planetary pale-yellow highlights; avoid neon oversaturation"
+    },
+    "lighting": {
+      "type": "soft ambient mixed with directional planetary light",
+      "shadows": "long, soft-edged shadows from the figure on interior floor; subtle terrain shadows from diffused ambient; controlled interior reflections",
+      "volumetrics": "thin atmospheric haze in canyon and along horizon; soft halo around planetary body; faint starlight diffusion without heavy bloom"
+    }
+  },
+  "composition": {
+    "framing": "wide shot through a large rectangular panoramic window",
+    "perspective": "eye-level, centered behind a silhouetted human figure",
+    "structure": [
+      "foreground: observatory interior edge with vegetation clusters and central human silhouette",
+      "midground: canyon basin and mesas with river valley reflecting star glow",
+      "background: planetary sky with stars, planets, subtle nebulae"
+    ],
+    "focal_hierarchy": "primary: silhouetted human figure at center; secondary: giant pale-yellow planet; tertiary: towering cliffs illuminated by cosmic light"
+  },
+  "subjects": {
+    "core_concepts": [
+      "central silhouetted human figure, hands behind back, neutral stance",
+      "rectangular window framing expansive alien canyon",
+      "giant planetary body with soft halo and distant smaller orbs",
+      "towering stratified cliffs and mesas",
+      "river valley with faint starlight reflection"
+    ],
+    "human_element": "single figure centered, back to viewer, small relative scale to emphasize grandeur",
+    "objects": [
+      "sleek matte metallic interior framework with subtle geometric paneling",
+      "clear glass with controlled reflection (no HUD/UI)",
+      "interior foreground vegetation clusters"
+    ],
+    "constraints": "no direct logo recreation; no HUD/UI overlays; celestial elements must remain elegant and believable"
+  },
+  "environment": {
+    "terrain": {
+      "type": "eroded canyon and plateau landscape",
+      "features": [
+        "tall vertical cliffs with rugged stratified layers",
+        "wide river valley cutting through basin with subtle reflective sheen",
+        "scattered mesas and plateaus",
+        "undulating ground with vegetated patches"
+      ],
+      "material": "reddish sandstone with moderate reflectivity under celestial lighting"
+    },
+    "vegetation": {
+      "density": "medium-high in foreground, sparse in background",
+      "pattern": [
+        "foreground: lush mixed flora around window edge and interior threshold",
+        "midground: uniform shrub/tree clusters on canyon floor",
+        "background: thinning vegetation into haze"
+      ],
+      "types": {
+        "foreground": [
+          "dense green-grey moss carpets",
+          "bushes with orange-red foliage",
+          "spindly grasses in ochre and dark green",
+          "small shrubs with purple highlights"
+        ],
+        "midground": [
+          "medium shrubs and low trees in orange-to-crimson foliage",
+          "amber groundcover patches",
+          "scattered fern-like alien structures"
+        ],
+        "background": [
+          "low-density shrub clusters blending to rock"
+        ]
+      }
+    },
+    "sky": {
+      "content": [
+        "dense star field with multiple bright points",
+        "one large pale-yellow planet dominating right side",
+        "smaller moons/planets scattered at depth",
+        "faint nebula haze and a few abstract lens-like glow orbs"
+      ],
+      "tone": "majestic, contemplative, surreal yet ordered",
+      "color_gradient": "deep navy apex blending into teal/turquoise near horizon with pale-yellow planetary halo"
+    }
+  },
+  "negative": {
+    "ban_list": [
+      "blurriness",
+      "chaotic vegetation placement",
+      "cartoonish rendering",
+      "oversaturated neon hues",
+      "sci-fi HUD/UI overlays or holographic interfaces",
+      "excessive bloom or halation",
+      "warped window frame lines",
+      "over-busy starfields that overpower planets"
+    ]
+  },
+  "technical": {
+    "resolution": "4096x2304",
+    "aspect_ratio": "16:9",
+    "seed": 735911,
+    "iterations": 4,
+    "select_best_of": 2,
+    "output_notes": "archive prompt, parameters, seed, and selected image with metadata"
+  },
+  "model_specific": {
+    "system": "Photoreal base with restrained conceptual surrealism; editorial-modern retro cues; warm–cool palette discipline; atmosphere-driven cosmic scale; clean interior minimalism.",
+    "prompt": {
+      "content": [
+        "Render a wide, eye-level scene from inside a minimalist observatory with a large rectangular panoramic window.",
+        "Foreground: centered silhouetted male figure, hands behind back, neutral stance; sparse interior vegetation clusters near the window threshold; sleek matte metallic floor with subtle geometric panel reflections.",
+        "Midground: an eroded canyon basin with stratified sandstone cliffs and scattered mesas; a wide river valley reflecting faint starlight; vegetation density transitions from medium at foreground to sparse into distance.",
+        "Background: a majestic planetary sky with a large pale-yellow planet to the right with a soft halo, additional smaller moons/planets at varied depths, dense star field with faint nebula wisps; keep star points crisp and believable.",
+        "Color discipline: terrain and vegetation warm earth tones (#C1440E, #D2691E, #E2725B; coral/amber/purple accents) contrasted with cool sky tones (#001f33, #0A2A43) and pale-yellow planetary highlight (#FFD580); gentle accent lights (#FFF8E1, #E6E6FA, #FAD02E); avoid neon.",
+        "Lighting: soft ambient mixed with directional planetary light; long, soft-edged shadow from the figure across the interior floor; thin haze in canyon and along horizon; subtle planetary halo and restrained starlight diffusion.",
+        "Composition: strong central symmetry with the figure; apply rule of thirds to horizon and planetary placement; maintain generous negative space in the sky panes; ensure window frame lines are straight and architectural.",
+        "Finish: editorial-modern polish with soft fine grain and subtle chromatic aberration at edges; no HUD/UI overlays or legible text."
+      ],
+      "negative": "blur, chaotic vegetation, cartoonish, neon, HUD/UI, heavy bloom, warped window lines, over-busy stars"
+    },
+    "params": {
+      "quality": "high",
+      "style": "photorealistic",
+      "guidance_scale": 7.0,
+      "size": "4096x2304",
+      "seed": 735911
+    }
+  }
+}

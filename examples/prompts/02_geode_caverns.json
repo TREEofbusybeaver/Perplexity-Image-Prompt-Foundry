@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "brand": "Perplexity",
+    "aesthetic": "surreal-real with retro vibes",
+    "version": "1.0.0",
+    "purpose": "AI-generated image aligned to Perplexity branding",
+    "model": "Google Imagen 4"
+  },
+  "concept": {
+    "title": "Geode Caverns",
+    "objective": "Depict a mystical, serene subterranean geode cavern with glimmering crystals, grounded in realism with restrained, conceptual surreal cues to fit Perplexity’s brand.",
+    "brand_message": "intelligent, accessible, human-centric; no gimmicks, no fluff; answers that make sense"
+  },
+  "style": {
+    "realism": {
+      "base": "photorealistic, ultra-detailed, natural light, sharp focus",
+      "controls": {
+        "photorealism_strength": 0.78,
+        "texture_fidelity": "polished amethyst facets, rough cave walls, bioluminescent moss, crystal geodes, subtle refraction and micro-scratches"
+      }
+    },
+    "surreal": {
+      "approach": "magical realism—subtle conceptual juxtapositions within a grounded scene",
+      "motifs": [
+        "glowing crystalline formations",
+        "cascading waterfall reflecting saturated violet light",
+        "translucent geodes embedded in rock",
+        "swirling mists and wisps of light",
+        "small bioluminescent insects (fireflies)",
+        "soft light refraction prisms in air"
+      ],
+      "intensity": 0.19
+    },
+    "retro_editorial": {
+      "tone": "refined, magazine-inspired, timeless",
+      "cues": [
+        "vintage color grading leaning deep purples and cool shadows",
+        "soft film grain",
+        "subtle chromatic aberration at edges",
+        "classic editorial composition and negative space"
+      ],
+      "strength": 0.4
+    },
+    "brand_tone": ["clean", "confident", "curious", "open", "precise yet warm"]
+  },
+  "color_lighting": {
+    "palette": {
+      "dominant": ["#4A148C", "#8E24AA"],
+      "accents": ["#E040FB", "#A1887F"],
+      "neutrals": ["#0D0D19", "#1D162B", "#291F38", "#9C8EA3"],
+      "rules": "vibrant yet refined; preserve harmony; avoid neon oversaturation"
+    },
+    "lighting": {
+      "type": "soft ambient cave lighting with crystalline glow and faint volumetric beams",
+      "shadows": "subtle, directional, with gentle occlusion near rocks",
+      "volumetrics": "light haze for depth; mild particulate shimmer near crystals"
+    }
+  },
+  "composition": {
+    "framing": "wide shot",
+    "perspective": "eye-level",
+    "structure": [
+      "balanced composition",
+      "rule of thirds",
+      "generous negative space around main geode cluster",
+      "clean lines, geometric hierarchy of crystal arrays"
+    ],
+    "focal_hierarchy": "primary: largest glowing geode cluster foreground; secondary: faint violet waterfall background; tertiary: drifting fireflies and refracted light wisps"
+  },
+  "subjects": {
+    "core_concepts": [
+      "glowing crystalline formations",
+      "cascading waterfalls reflecting purple light",
+      "translucent geodes embedded in rock",
+      "swirling mists and wisps of light",
+      "fireflies or small glowing insects",
+      "subtle light refraction effects"
+    ],
+    "human_element": "none (optional silhouette allowed if minimal and non-distracting)",
+    "objects": [
+      "amethyst crystals",
+      "cave walls and rocks",
+      "bioluminescent moss",
+      "crystal geodes"
+    ],
+    "constraints": "no direct logo recreation; evoke knowledge and layered perspectives via orderly crystal arrays and light pathways"
+  },
+  "ui_references": {
+    "toolbar": {
+      "backgroundColor": "#1D162B",
+      "textColor": "#E8DAF7",
+      "iconStyle": "glowing purple icons with subtle shadow",
+      "boxShadow": "0 2px 4px rgba(0,0,0,0.1)"
+    },
+    "tabs": {
+      "activeTab": {
+        "backgroundColor": "#291F38",
+        "indicator": "glowing violet underscore",
+        "textColor": "#E040FB"
+      },
+      "inactiveTab": {
+        "backgroundColor": "#1D162B",
+        "textColor": "#9C8EA3"
+      },
+      "tabSeparator": "faint crystalline line"
+    },
+    "newTabPage": {
+      "background": {
+        "type": "still image",
+        "description": "A vast geode cavern with massive purple crystals glowing from within; faint waterfall in the background.",
+        "gradientOverlay": "linear-gradient(to bottom, rgba(13,13,25,0.9), rgba(142,36,170,0.2))"
+      },
+      "widgets": {
+        "style": "semi-translucent crystalline panels with sharp, geometric edges",
+        "textColor": "#E8DAF7",
+        "border": "1px solid #E040FB"
+      }
+    },
+    "animations": {
+      "hoverEffect": "subtle glow emanating from icons",
+      "clickEffect": "brief sparkling effect",
+      "loadingBar": {
+        "type": "glowing line that shimmers like a crystal",
+        "color": "#E040FB"
+      }
+    }
+  },
+  "negative": {
+    "ban_list": [
+      "chaotic composition",
+      "blurry or smeared elements",
+      "cartoonish rendering",
+      "neon oversaturation",
+      "cliché tech holograms or code rain",
+      "excessive distortion",
+      "low-resolution or garbled text"
+    ]
+  },
+  "technical": {
+    "resolution": "4096x2304",
+    "aspect_ratio": "16:9",
+    "seed": 224466,
+    "iterations": 4,
+    "select_best_of": 2,
+    "output_notes": "archive prompt, parameters, seed, and selected image with metadata"
+  },
+  "model_specific": {
+    "system": "Photoreal base with subtle, conceptual surrealism; editorial-modern retro cues; refined purple-teal palette with warm highlights.",
+    "prompt": {
+      "content": [
+        "Render a vast subterranean geode cavern in photoreal detail.",
+        "Primary subject: a large amethyst geode cluster emitting soft violet light; secondary: a faint waterfall in the distance reflecting purple hues.",
+        "Introduce subtle surreal motifs: gently drifting refracted light prisms and bioluminescent insects, swirling wisps of mist that hint at ordered light paths.",
+        "Apply editorial-retro cues: vintage grading (deep purples), soft film grain, subtle chromatic aberration; maintain clean composition and negative space.",
+        "Color discipline: dominant #4A148C and #8E24AA; accents #E040FB and #A1887F; backgrounds and neutrals from #0D0D19/#1D162B/#291F38/#9C8EA3; avoid neon oversaturation.",
+        "Composition: wide shot, eye-level, rule of thirds with clear focal hierarchy; geometric order in crystal arrays to evoke layered perspectives."
+      ],
+      "negative": "chaos, blur, cartoonish, neon oversaturation, cliché holograms, heavy distortion, low-res text"
+    },
+    "params": {
+      "quality": "high",
+      "style": "photorealistic",
+      "input_fidelity": 0.83,
+      "size": "4096x2304",
+      "seed": 224466
+    }
+  }
+}

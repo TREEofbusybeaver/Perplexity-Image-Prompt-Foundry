@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "brand": "Perplexity",
+    "aesthetic": "surreal-real with retro vibes",
+    "purpose": "Modular, production-ready image prompting aligned to Perplexity brand",
+    "notes": "Use this as the base template. Fill the empty fields and select from option arrays. Swap the targets block per model."
+  },
+  "concept": {
+    "title": "",
+    "objective": "",
+    "narrative_hook": "",
+    "brand_message": "intelligent, accessible, human-centric; no gimmicks, no fluff; answers that make sense",
+    "keywords_core": [
+      "knowledge discovery",
+      "layered perspectives",
+      "interconnectedness",
+      "editorial modernity"
+    ]
+  },
+  "style": {
+    "realism": {
+      "base": "photorealistic, ultra-detailed, natural light, sharp focus",
+      "controls": {
+        "photorealism_strength": 0.7,
+        "texture_fidelity": "subtle film grain, gentle noise, clean edges"
+      }
+    },
+    "surreal": {
+      "approach": "magical realism: subtle, conceptual juxtapositions within grounded scenes",
+      "motifs": [
+        "floating geometric forms",
+        "glowing information conduits",
+        "impossible yet orderly juxtapositions",
+        "layered, semi-transparent overlaps"
+      ],
+      "intensity": 0.35
+    },
+    "retro_editorial": {
+      "tone": "refined, magazine-inspired, timeless",
+      "cues": [
+        "vintage color grading",
+        "soft film grain",
+        "subtle chromatic aberration",
+        "balanced, classical composition"
+      ],
+      "strength": 0.4
+    },
+    "brand_tone": [
+      "clean",
+      "confident",
+      "curious",
+      "open",
+      "precise yet warm"
+    ]
+  },
+  "color_lighting": {
+    "palette": {
+      "dominant": ["teal", "sky blue"],
+      "accents": ["warm earth tones"],
+      "rules": "vibrant yet refined; avoid oversaturation; maintain harmony"
+    },
+    "lighting": {
+      "type": "soft ambient / diffused / natural window / golden hour",
+      "shadows": "subtle, directional where needed",
+      "volumetrics": "light haze permissible for depth"
+    }
+  },
+  "composition": {
+    "framing": "wide / medium / close-up (choose one)",
+    "perspective": "eye-level / low-angle / overhead (choose one)",
+    "structure": [
+      "rule of thirds",
+      "balanced or symmetrical grids",
+      "generous negative space",
+      "minimal, uncluttered background",
+      "clean lines, geometric hierarchy"
+    ],
+    "focal_hierarchy": "clear primary focal element; 1-2 secondary elements"
+  },
+  "subjects": {
+    "core_concepts": [
+      "abstract knowledge symbols (open book, asterisk, cursor, intersecting windows reinterpreted, not literal logo)",
+      "interconnected data streams",
+      "orderly arrays of shapes as information"
+    ],
+    "human_element": "optional: subtle silhouette or hand interacting with interface",
+    "objects": [
+      "retro-futuristic devices",
+      "minimalist architecture",
+      "editorial props consistent with era-neutral styling"
+    ],
+    "constraints": "no direct logo recreation; use evocative motifs only"
+  },
+  "negative": {
+    "ban_list": [
+      "chaotic composition",
+      "blurry elements",
+      "cartoonish styles (unless explicitly requested)",
+      "oversaturated neon hues",
+      "clichÃ© tech tropes (floating code rain, generic holograms)",
+      "excessive distortion",
+      "low-resolution text"
+    ]
+  },
+  "technical": {
+    "resolution": "UHD (â‰¥4096px on long edge)",
+    "aspect_ratio": "16:9 (preferred) | 3:2 | 1:1",
+    "seed": "set for reproducibility",
+    "iterations": 4,
+    "select_best_of": 2,
+    "output_notes": "archive prompt, parameters, seed, and selected image with metadata"
+  },
+  "targets": {
+    "midjourney_v6": {
+      "prompt_blocks": [
+        "Subject: {one-line subject}",
+        "Scene: {setting with real anchor}",
+        "Surreal: {one to two conceptual juxtapositions}",
+        "Editorial-Retro: vintage color grading, soft film grain, subtle chromatic aberration, magazine composition",
+        "Color: teal/sky blue dominant, warm earth accents, refined harmony",
+        "Composition: {framing and perspective}, negative space, clean lines",
+        "Tone: intelligent, accessible, precise yet warm",
+        "Negative: {ban_list}"
+      ],
+      "parameters": "--v 6 --style raw --ar {ar} --s {stylize} --seed {seed}",
+      "defaults": {
+        "ar": "16:9",
+        "stylize": 150,
+        "seed": 12345
+      }
+    },
+    "gpt_image_1": {
+      "system": "photorealistic base with subtle, conceptual surreal elements; editorial modern retro cues; refined palette",
+      "prompt": {
+        "content": [
+          "Render {subject} in {scene}.",
+          "Introduce subtle surreal motif: {surreal_motif}.",
+          "Apply editorial-retro cues: vintage grading, soft grain, subtle chromatic aberration.",
+          "Color: teal/sky blue dominant, warm earth accents; refined harmony.",
+          "Composition: {framing}, {perspective}, negative space, geometric order."
+        ],
+        "negative": "{ban_list}"
+      },
+      "params": {
+        "quality": "high",
+        "style": "photorealistic",
+        "input_fidelity": 0.7,
+        "size": "4096x2304",
+        "seed": 12345
+      }
+    },
+    "flux_1": {
+      "prompt": {
+        "style": "photoreal base + subtle conceptual surrealism; editorial-modern retro cues",
+        "description": "{subject} in {scene}; motif: {consistent_symbol} repeated across series",
+        "color": "teal/sky blue with warm accents",
+        "composition": "{framing}, {perspective}, clean lines, negative space",
+        "negative": "{ban_list}"
+      },
+      "params": {
+        "consistency_ref": "{reference_image_optional}",
+        "seed": 12345,
+        "size": "4096x2304"
+      }
+    },
+    "dalle_3": {
+      "prompt": {
+        "description": "Conceptual, dreamlike composition: {subject} within grounded scene {scene}; subtle impossible element: {surreal_motif}; editorial-modern retro cues; refined teal/sky blue palette with warm accents; clean composition, negative space.",
+        "negative": "{ban_list}"
+      },
+      "params": {
+        "quality": "hd",
+        "style": "vivid",
+        "size": "1792x1024",
+        "seed": 12345
+      }
+    }
+  },
+  "few_shot_guidance": {
+    "v1_conservative": "A hyperreal office reading nook at dusk, natural window light, an open book on a warm earth-toned desk emitting a soft teal glow, faint floating page edges suggesting data flow; vintage color grading, soft film grain, subtle chromatic aberration; rule of thirds, generous negative space; clean, confident, precise-yet-warm tone; avoid chaos, oversaturation, and clichÃ© holograms",
+    "v2_exploratory": "A tranquil lakeside at golden hour with a transparent geometric prism hovering inches above the water, refracting teal and sky blue light beams into ordered patterns over warm shoreline stones; editorial magazine feel, gentle grain, timeless palette; balanced symmetry, minimal scene complexity; surreal element restrained and coherent with reality"
+  },
+  "controls": {
+    "levers": {
+      "surreal_intensity": "0.15-0.6 (raise for more magical realism; keep below 0.5 for brand fidelity)",
+      "retro_strength": "0.2-0.6 (avoid heavy nostalgia effects)",
+      "input_fidelity_gpt_image_1": "0.5-0.85 to blend real base with subtle surreal overlays",
+      "stylize_mj": "75-250 for tasteful stylization"
+    },
+    "checklist": [
+      "Is realism preserved as the base?",
+      "Are surreal cues conceptual, subtle, and orderly?",
+      "Does color harmony prioritize teal/sky blue with warm accents?",
+      "Is composition clean with negative space and clear hierarchy?",
+      "Are banned artifacts absent?"
+    ]
+  },
+  "handoff": {
+    "versioning": "store prompt, params, seeds, and choices per image",
+    "review": "brand QA for realism base, conceptual surrealism, editorial retro restraint",
+    "next_step": "for scenario prompts, fill placeholders and choose target modelÂ profile"
+Â Â }
+}
